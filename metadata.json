@@ -1,0 +1,5 @@
+{
+  "name": "加盟校财务结算",
+  "description": "A comprehensive dashboard for managing and simulating financial settlements for affiliate schools. It provides views for both the affiliate school to track earnings and request withdrawals, and for an auditor to review and approve these requests. The application includes a detailed financial flow simulator to explain the settlement logic under different scenarios.",
+  "requestFramePermissions": []
+}

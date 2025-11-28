@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Affiliate School Financial Settlement System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            animation: {
+              in: 'in .6s both',
+              'zoom-in-95': 'zoom-in-95 .2s ease-out',
+              'slide-in-from-right': 'slide-in-from-right .3s ease-out',
+              'slide-in-from-top-4': 'slide-in-from-top-4 .3s ease-out',
+              'slide-in-from-bottom-2': 'slide-in-from-bottom-2 .3s ease-out',
+              'slide-in-from-left-2': 'slide-in-from-left-2 .3s ease-out',
+            },
+            keyframes: {
+              in: {
+                '0%': { transform: 'translateY(18px)', opacity: 0 },
+                '100%': { transform: 'translateY(0)', opacity: 1 },
+              },
+              'zoom-in-95': {
+                '0%': { opacity: '0', transform: 'scale(.95)' },
+                '100%': { opacity: '1', transform: 'scale(1)' },
+              },
+              'slide-in-from-right': {
+                '0%': { transform: 'translateX(100%)' },
+                '100%': { transform: 'translateX(0)' },
+              },
+               'slide-in-from-top-4': {
+                '0%': { transform: 'translateY(-1rem)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              'slide-in-from-bottom-2': {
+                '0%': { transform: 'translateY(0.5rem)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              'slide-in-from-left-2': {
+                '0%': { transform: 'translateX(-0.5rem)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' },
+              },
+            },
+          },
+        },
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
